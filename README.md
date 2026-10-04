@@ -1,5 +1,8 @@
 # 📊 Employee_reimbursement_project
 Employee reimbursement analysis project completed as part of the Codebasics Power BI course, co-created by Dhaval Patel and Hemanand Vadivel.
+ ## 🗂️ Lookup Dimension Preparation (Power Query)
+ - Connected to the Excel source file, loaded the Dim_employee worksheet, and promoted the top row to serve as column headers.
+ - Configured the data types by casting Employee_ID as a whole number and Name as text, establishing a clean employee lookup table for downstream data modeling and relationship mapping.
 
  ## 🗂️ Data Cleaning & Transformation (Power Query)
 - Imported the fact_reimbursement dataset from Excel and structured the schema by assigning explicit data types across all fields, including dates, monetary amounts, and ID attributes. 
